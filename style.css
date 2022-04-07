@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    display: flex;
+    flex: 1;
+}
+
+.form-area {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.feature {
+    display: flex;
+    width: 50%;
+    gap: 16px;
+}
