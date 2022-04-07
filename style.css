@@ -12,6 +12,7 @@ body {
 .background {
     flex: 0 2 30vw;
     width: 10%;
+    position: relative;
 }
 
 #filler {
@@ -19,6 +20,7 @@ body {
     width: 100%;
     height: 100vh;
 }
+
 .form-area {
     display: flex;
     flex-direction: column;
@@ -32,4 +34,15 @@ body {
     width: 50%;
     gap: 16px;
     
+}
+
+.form-area section {
+    height: 33%;
+}
+
+.overlay {
+    z-index: 2;
+    position: absolute;
+    left: 35%;
+    top: 45vh;
 }
