@@ -40,9 +40,22 @@ body {
     height: 33%;
 }
 
+form {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    gap: 24px 8px;
+}
+
+label, input {
+    display: inline-block;
+
+}
+
 .overlay {
-    z-index: 2;
+    z-index: 1;
     position: absolute;
-    left: 35%;
-    top: 45vh;
+    left: 30%;
+    top: 40vh;
+    width: 30%;
 }
