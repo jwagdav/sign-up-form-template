@@ -56,6 +56,16 @@ form {
     
 }
 
+.verifed {
+    
+    border: #4ef037;
+}
+
+.error {
+    
+    border: red;
+}
+
 .container .feature {
     box-shadow: 5px 5px 10px #4E6171;
     background: #677C8F;
