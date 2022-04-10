@@ -7,6 +7,9 @@
     <title>Document</title>
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet"> 
 </head>
 <body>
     
@@ -17,11 +20,11 @@
 
     <section class="container">
         
-        <section>
-            <p class="info">This is not a real form! If you complete this form you will not have an account anywhere and your information will 
+        <section class="info">
+            <p>This is not a real form! If you complete this form you will not have an account anywhere and your information will 
                     disappear into thin air. That being said, you probably don't want to put any personal information in here.
             </p>
-            <h2>Sign up now</h2>
+            <h2 class="padded">Sign up now</h2>
         </section>
         <section class="feature">
             <h1>Let's get started</h1>
@@ -29,26 +32,26 @@
                 <label for="first-name">First name</label>
                 <input type="text" name="first-name" id="first-name">
         
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" class="error verified">
+
                 <label for="last-name">Last name</label>
                 <input type="text" name="last-name" id="last-name">
         
-                <label for="email">Email</label>
-                <input type="email" name="email" id="email">
-        
                 <label for="phone-number">Phone number</label>
                 <input type="cel" name="phone-number" id="phone-number">
-        
-                <label for="password">Password</label>
-                <input type="password" name="password" id="password" class="error verified">
         
                 <label for="password-verification">Verify password</label>
                 <input type="password" name="password-verification" id="password-verification" class="error verified">
             </form>
                 
         </section>
-        <section>
-            <a href="">Create account</a>
-            <h3>Already have an account? <a href="">Log in</a></h3>
+        <section class="info">
+            <a href="" class="fake-btn padded">Create account</a>
+            <h3 class="padded">Already have an account? <a href=""><strong>Log in</strong></a></h3>
         </section>
     
     </section>
